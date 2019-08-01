@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.senac.cestadeferramentas">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="androis.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Cesta de Ferramentas"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ProdutoActivity" />
+        <activity
+            android:name=".ui.ListaProdutos"
+            android:label="@string/title_activity_lista_produtos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.Sobre"
+            android:label="Sobre"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.CalculoBytes"
+            android:label="Conversão Unidades Armazenamento"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.CalculoIMC"
+            android:label="Calculo I.M.C"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.Principal"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
