@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CestaDeFerramentas</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_calculo">Calculo</string>
+    <string name="login">Login</string>
+    <string name="title_activity_calculo_bytes">CalculoBytes</string>
+
+
+    <string-array name="tipo">
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_lista_produtos">ListaProdutos</string>
+    <string name="title_activity_produto">Produto</string>
+
+     <string-array name="status">
+         <item>COMPRADO</item>
+         <item>NAO COMPRADO</item>
+     </string-array>
+
+</resources>
+
